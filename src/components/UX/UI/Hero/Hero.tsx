@@ -15,13 +15,7 @@ export const Hero = () => {
                 //className='text-4xl sm:text-5xl lg:text-6xl font-extrabold text-sky-300 leading-tight drop-shadow-md'
                 className='text-4xl sm:text-5xl lg:text-6xl font-extrabold text-indigo-900 leading-tight drop-shadow-md'
                 >
-                    Conectamos tus envíos al mundo:
-                </p>
-                <p 
-                //className='text-xl sm:text-2xl lg:text-3xl text-slate-300 font-light'
-                className='text-4xl sm:text-2xl lg:text-6xl text-indigo-800 font-light'
-                >
-                    productos, documentos o compras,
+                    Conectamos tus envíos al mundo: <span className='font-light' >productos, documentos o compras,</span>
                 </p>
                 <p 
                 //className='text-3xl sm:text-4xl lg:text-5xl font-bold text-sky-400 leading-tight drop-shadow-sm'

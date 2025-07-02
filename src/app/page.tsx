@@ -1,11 +1,12 @@
-import { Hero, InitialNavbar } from "@/components/UX";
+import { Cotizador } from "@/components/UX";
+import SecondIntGlobe from "@/components/UX/UI/Hero/SecondIntGlobe";
 
 export default function Home() {
   return (
-    <>
-      <InitialNavbar/>
-      <Hero/>
-    </>
+    <section className="bg-slate-50">
+      <SecondIntGlobe/>
+      <Cotizador/>
+    </section>
 
   );
 }

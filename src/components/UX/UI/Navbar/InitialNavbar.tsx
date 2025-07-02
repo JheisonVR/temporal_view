@@ -52,7 +52,7 @@ export const InitialNavbar = () => {
     };
 
   return (
-    <nav className=" px-80 py-2 flex top-0 bg-slate-50 ">
+    <nav className="p-1 w-screen rounded-b-md md:px-20 lg:px-48 lg:gap-2 xl:px-80 py-2 flex top-0 bg-slate-50 z-50 ">
       {/* Logo */}
       <div className="flex items-center gap-1">
         <Link href="/">
@@ -61,7 +61,7 @@ export const InitialNavbar = () => {
             alt="logo"
             width={200}
             height={200}
-            className="w-40 hover:rotate-2 duration-500"
+            className="w-40 hover:scale-105 duration-500 transition-all"
           />
         </Link>
         {/* <div className="flex">
@@ -80,7 +80,7 @@ export const InitialNavbar = () => {
         <div className="h-1 w-8 rounded-full bg-indigo-950 mt-1 transition-all group-open:-rotate-45 group-open:-top-2 relative duration-100"></div>
       </button>
       {/* Mobile Menu Content */}
-      <div className= {`sm:hidden absolute top-14 bg-slate-50 w-full transition-all rounded-b-lg ${isMobileMenuOpen ? '' : 'hidden'}`} >
+      <div className= {`sm:hidden absolute top-14 bg-slate-50 w-full transition-all rounded-b-lg z-50 ${isMobileMenuOpen ? '' : 'hidden'}`} >
         {items.map( (item, i)=>(
             <div key={i} className={item.classname} >
                 <Link href={item.url}><span>{item.name}</span></Link>

@@ -1,3 +1,6 @@
 export * from './UI/Navbar/InitialNavbar'
 export * from './UI/Hero/Hero'
 export * from './UI/Cotizador/Cotizador'
+export * from './UI/Ecosistema/Ecosistema'
+export * from './UI/Countries/Countries'
+export * from './UI/Countries/AlternativeCountries'

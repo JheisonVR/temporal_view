@@ -215,9 +215,9 @@ const SecondIntGlobe: React.FC = () => {
         background:
           "linear-gradient(120deg, #1E1C2E 0%, #323042 60%, #545362 100%)",
         position: "relative",
-        overflow: "hidden",
+        overflow: "auto",
       }}
-      className="min-w-screen"
+      className="min-w-screen pt-3 overflow-x-hidden box-border"
     >
       {/* Overlayed Text Content & Globe Canvas */}
       <div className="flex flex-col sm:flex-row items-center gap-4 sm:justify-between h-full w-full">

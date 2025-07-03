@@ -52,7 +52,7 @@ export const InitialNavbar = () => {
     };
 
   return (
-    <nav className="p-1 w-screen rounded-b-md md:px-20 lg:px-48 lg:gap-2 xl:px-80 py-2 flex top-0 bg-slate-50 z-50 ">
+    <nav className="p-1 min-w-screen rounded-b-lg md:px-20 lg:px-48 lg:gap-2 xl:px-80 py-2 flex top-0 bg-slate-50 z-50 fixed ">
       {/* Logo */}
       <div className="flex items-center gap-1">
         <Link href="/">

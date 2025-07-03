@@ -1,4 +1,4 @@
-import { AlternativeCountries, Cotizador, Countries, Ecosistema } from "@/components/UX";
+import { AlternativeCountries, Cotizador, Ecosistema } from "@/components/UX";
 import SecondIntGlobe from "@/components/UX/UI/Hero/SecondIntGlobe";
 
 export default function Home() {
@@ -7,7 +7,6 @@ export default function Home() {
       <SecondIntGlobe/>
       <Cotizador/>
       <Ecosistema/>
-      <Countries/>
       <AlternativeCountries/>
     </section>
 

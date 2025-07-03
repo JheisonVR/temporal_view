@@ -7,7 +7,7 @@ const cards = [
     text: "text-[#272F66]",
   },
   {
-    title: "Envios Nacionales",
+    title: "",
     bg: "bg-gradient-to-br from-[#a1c4fd] to-[#c2e9fb]",
     text: "text-[#272F66]",
   },
@@ -43,7 +43,7 @@ export const EcosistemaBentoGrid = () => {
             group relative flex flex-col justify-center items-center rounded-3xl shadow-lg cursor-pointer transition-all duration-300
             ${card.bg} ${card.text}
             ${idx === 0 ? "md:col-start-3 md:row-start-1 md:row-span-1" : ""}
-            ${idx === 1 ? "md:col-start-4 md:row-start-1 md:row-span-2" : ""}
+            ${idx === 1 ? "md:col-start-4 md:row-start-1 md:row-span-2 hidden" : ""}
             ${idx === 2 ? "md:col-start-3 md:row-start-2 md:row-span-2" : ""}
             ${idx === 3 ? "md:col-start-1 md:row-start-3 md:col-span-2" : ""}
             min-h-[80px] md:min-h-0 h-full w-full p-4 md:p-6 overflow-hidden
@@ -55,7 +55,7 @@ export const EcosistemaBentoGrid = () => {
           tabIndex={0}
         >
           <span
-            className="text-lg md:text-2xl font-bold transition-transform duration-300 break-words w-full text-center text- truncate"
+            className="text-lg md:text-2xl font-bold transition-transform duration-300 break-words w-full text-center "
           >
             {card.title}
           </span>

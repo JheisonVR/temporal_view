@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 
 const countries = [
@@ -23,16 +23,19 @@ const countries = [
   },
 ]
 
-export const CountriesCrousel = () => {
-  const [index, setIndex] = useState(0)
+interface CountriesCrouselProps {
+  index: number
+  setIndex: React.Dispatch<React.SetStateAction<number>>
+}
 
+export const CountriesCrousel: React.FC<CountriesCrouselProps> = ({ index, setIndex }) => {
   // Auto-advance every 5 seconds
   useEffect(() => {
     const timer = setInterval(() => {
-      setIndex((prev) => (prev + 1) % countries.length)
+      setIndex((prev: number) => (prev + 1) % countries.length)
     }, 5000)
     return () => clearInterval(timer)
-  }, [])
+  }, [setIndex])
 
   const next = () => setIndex((prev) => (prev + 1) % countries.length)
   const prev = () => setIndex((prev) => (prev - 1 + countries.length) % countries.length)

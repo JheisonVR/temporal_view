@@ -17,28 +17,28 @@ const items = [
     //   },
     // ],
     classname:
-      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out",
+      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out hover:scale-110 transform",
     url:'#',
   },
   {
     name: "Sucursales",
     options: [],
     classname:
-      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out",
+      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out hover:scale-110 transform",
     url:'#',
   },
   {
     name: "Mesa de ayuda",
     options: [],
     classname:
-      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out",
+      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out hover:scale-110 transform",
     url:'#',
   },
-    {
+  {
     name: "Blog",
     options: [],
     classname:
-      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out",
+      "relative flex h-full items-center p-4 cursor-pointer font-bold text-indigo-900 hover:text-amber-500 hover:bg-white/10 transition-colors ease-in-out hover:scale-110 transform",
     url:'#',
   },
 ];

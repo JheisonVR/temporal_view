@@ -44,7 +44,7 @@ export const AlternativeCountries = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-white/60 via-[#bfc3d6]/40 to-[#272F66]/20 z-0 pointer-events-none" />
       {/* Content */}
       <div className="relative z-10 flex flex-col justify-center items-center w-full h-full px-2 md:px-8 py-6 gap-2">
-        <div className="bg-white/40 backdrop-blur-md rounded-2xl px-6 py-10 shadow-md min-h-[340px] flex flex-col justify-center items-center">
+        <div className="bg-white/40 backdrop-blur-md rounded-2xl px-6 py-10 shadow-md min-h-[440px] flex flex-col justify-center items-center gap-4">
           <h1 className="text-3xl md:text-4xl font-extrabold text-[#272F66] mb-2">Países Agilex</h1>
           <h3 className="text-lg md:text-xl text-[#272F66] opacity-80 mb-1">Todo al alcance de tu mano</h3>
           <span className="text-2xl md:text-3xl font-bold text-[#272F66] mb-4 block">

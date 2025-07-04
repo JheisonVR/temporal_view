@@ -212,8 +212,12 @@ const SecondIntGlobe: React.FC = () => {
       style={{
         height: "100vh",
         width: "100vw",
-        background:
-          "linear-gradient(120deg, #1E1C2E 0%, #323042 60%, #545362 100%)",
+        backgroundImage: "linear-gradient(120deg, #1E1C2E 0%, #323042 60%, #545362 100%), url('/assets/bgPoints.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        // background:
+        //   "linear-gradient(120deg, #1E1C2E 0%, #323042 60%, #545362 100%)",
         position: "relative",
         overflow: "auto",
       }}

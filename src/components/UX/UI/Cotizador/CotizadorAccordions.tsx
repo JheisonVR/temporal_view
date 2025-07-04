@@ -4,19 +4,19 @@ import React, { useState } from "react";
 const sections = [
   {
     title: "Define tu envío",
-    content: "Contenido de la sección 1. Aquí puedes colocar cualquier información relevante.",
+    content: "Contenido de la sección 1.",
   },
   {
     title: "Planea la ruta",
-    content: "Contenido de la sección 2. Aquí puedes colocar cualquier información relevante.",
+    content: "Contenido de la sección 2.",
   },
   {
     title: "Calcula el costo",
-    content: "Contenido de la sección 3. Aquí puedes colocar cualquier información relevante.",
+    content: "Contenido de la sección 3.",
   },
   {
     title: "Proyecta tus metas",
-    content: "Contenido de la sección 4. Aquí puedes colocar cualquier información relevante.",
+    content: "Contenido de la sección 4.",
   },
 ];
 

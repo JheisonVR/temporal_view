@@ -1,5 +1,5 @@
 import React from 'react'
-import { CountriesCrousel } from './CountriesCrousel'
+// import { CountriesCrousel } from './CountriesCrousel'
 
 export const Countries = () => {
   return (
@@ -24,7 +24,7 @@ export const Countries = () => {
         </div>
       </div>
       <div className="relative z-10 flex w-full h-full justify-center items-center">
-        <CountriesCrousel />
+        {/* <CountriesCrousel /> */}
       </div>
     </section>
   )
